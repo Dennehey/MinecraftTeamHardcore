@@ -1,0 +1,234 @@
+# Enable Update Messages: Toggles update messages on or off.
+enable-update-messages: true
+
+# To use hex colors: &#hex
+# PvP Messages only for when  a player is killed by another player, enabled by default
+# Placeholders for pvp messages: %victim%, %victim-nick%, %killer%, %killer-nick%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+enable-pvp-messages: false
+killer-message: '&e[&cDeathMessages&e] &eYou killed &c%victim%'
+victim-message: '&e[&cDeathMessages&e] &eYou were killed by &c%killer%'
+
+# Toggleable features: set true to enable, false to disable. All features except lightning-effect are false by default.
+# Drop Head Percentage: self explanatory, chance of a player head to drop, [0 = 0%, 1 = 100%] 0.5 by default.
+# Do Lightning: creates a lightning effect that will not harm or damage anything when the victim is killed. True by default.
+# Head Name: Sets the name of a head whenever dropped from a player.
+head-name: "&c%victim%'s Head"
+do-lightning: true
+
+# Number between 0 and 1
+drop-head-percentage: 0.5
+
+# Enable Global Messages: self explanatory, enables global death messages.
+enable-global-messages: true
+
+# Original Hover Message: Show the original death message when hovering over the custom message.
+original-hover-message: false
+
+# You can add messages or remove any of these messages. Toggleable by boolean above.
+# This chooses a death message at random. You may add %kill-weapon% to any line in killed-death-messages.
+# Placeholders for melee messages: %victim%, %victim-nick%, %killer%, %killer-nick%, %kill-weapon%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+global-pvp-death-messages: 
+    - "&c%victim% &ehas killed us all!"
+
+# Placeholders for melee messages: %victim%, %victim-nick%, %killer%, %killer-nick%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+melee-death-messages:
+    - "&c%victim% &ehas killed us all!"
+      
+# Messages for entities with custom names. Will override their mob group message and display these instead, if enabled.
+# Placeholders: %victim%, %victim-nick%, %entity-name%, %victim-x%, %victim-y%, %victim-z%
+enable-custom-name-entity-messages: true
+custom-name-entity-messages:
+    - "&c%victim% &ehas killed us all!"
+
+# Placeholders for ALL below messages: %victim%, %victim-nick%, %victim-x%, %victim-y%, %victim-z%
+fall-damage-messages:
+    - "&c%victim% &ehas killed us all!"
+      
+drowning-messages:
+    - "&c%victim% &ehas killed us all!"
+
+suffocation-messages:
+    - "&c%victim% &ehas killed us all!" 
+    
+lava-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+magma-block-messages:
+    - "&c%victim% &ehas killed us all!" 
+    
+elytra-messages:
+    - "&c%victim% &ehas killed us all!"
+
+wither-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+suicide-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+fire-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+fire-tick-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+starvation-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+cactus-messages:
+   - "&c%victim% &ehas killed us all!"
+    
+potion-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+void-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+lightning-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+falling-block-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+slime-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+zombie-messages:
+    - "&c%victim% &ehas killed us all!"
+
+pigman-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+skeleton-messages:
+    - "&c%victim% &ehas killed us all!"
+
+magmacube-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+husk-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+spider-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+cavespider-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+witherskeleton-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+witherboss-messages:
+    - "&c%victim% &ehas killed us all!"
+        
+dragon-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+elderguardian-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+tnt-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+creeper-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+ghast-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+enderman-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+silverfish-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+witch-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+shulker-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+guardian-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+golem-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+zombievillager-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+endermite-messages: 
+    - "&c%victim% &ehas killed us all!"
+    
+phantom-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+drowned-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+pillager-messages:
+    - "&c%victim% &ehas killed us all!"
+
+ravager-messages:
+    - "&c%victim% &ehas killed us all!"
+
+illusioner-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+bee-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+wolf-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+llama-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+blaze-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+stray-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+vex-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+vindicator-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+pufferfish-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+polar-bear-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+dolphin-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+panda-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+piglin-messages:
+    - "&c%victim% &ehas killed us all!"
+
+hoglin-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+zoglin-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+zombified-piglin-messages:
+    - "&c%victim% &ehas killed us all!"
+
+# This is for any messages that haven't been added, so if you die to a cause which doesn't have any messages,
+#  one of these messages will display instead. (Please report any missing messages in my spigot discussion)
+unknown-messages:
+    - "&c%victim% &ehas killed us all!"
+    
+# The following messages only apply to projectiles shot by a mob, and not a player
+fireball-messages:
+        - "&c%victim% &ehas killed us all!"
+    
+arrow-messages:
+    - "&c%victim% &ehas killed us all!"
+
+# Only here to help me debug my plugin, not suggested you enable.
+developer-mode: false
