@@ -1,4 +1,4 @@
-# MinecraftUltraMPHardcore
+# Minecraft Team Hardcore - You die, we die
 
 This mod/script will cause the server (on any player death) to delete the world(s), and restart the server.  Like hardcore minecraft but you have to hope your friends don't die too!  
 
