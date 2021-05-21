@@ -9,3 +9,8 @@ This script is paired with bukkit/spigot and custom death message mod (https://d
 # Install Instructions
 
 Follow https://www.spigotmc.org/wiki/buildtools/, pull this repo into your folder, launch start_server.bat, then launch the powershell script from inside powershell
+
+# NOTE
+This process uses the command "Stop-Process -Name "java" -Force"
+
+If you're someone who is running multiple instances, or has other things running Java, that command may do exactly as advertised on the wrong thing
