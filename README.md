@@ -12,6 +12,7 @@ This script is paired with bukkit/spigot and custom death message mod ( https://
    * Generally, download https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
    * and run "java -jar BuildTools.jar" from the command line where BuildTools.jar is/where you want your server
  * Pull this repo into your folder
+ * Update your eula.txt to agree to the terms (the log will warn you of this as well if you do the next step..)
  * Launch start_server.bat
  * launch the powershell script (from within powershell, not cmd) with ./WatchLog.ps1 from your server folder
 
