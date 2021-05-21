@@ -8,7 +8,7 @@ This script is paired with bukkit/spigot and custom death message mod (https://d
 
 # Install Instructions
 
-Follow https://www.spigotmc.org/wiki/buildtools/, pull this repo into your folder, launch start_server.bat, then launch the powershell script from inside powershell
+Follow https://www.spigotmc.org/wiki/buildtools/, pull this repo into your folder, launch start_server.bat, then launch the powershell script with ./WatchLog.ps1 from your root server folder
 
 # NOTE
 This process uses the command "Stop-Process -Name "java" -Force"
