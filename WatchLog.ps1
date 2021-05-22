@@ -12,11 +12,10 @@ while($true)
           
           sleep -sec 5
           Write-Host "Delete World!"
-          Remove-Item -LiteralPath "C:\MinecraftServer\world" -Force -Recurse
-          Remove-Item -LiteralPath "C:\MinecraftServer\world_nether" -Force -Recurse
-          Remove-Item -LiteralPath "C:\MinecraftServer\world_the_end" -Force -Recurse
+          Remove-Item -LiteralPath "world" -Force -Recurse
+          Remove-Item -LiteralPath "world_nether" -Force -Recurse
+          Remove-Item -LiteralPath "world_the_end" -Force -Recurse
           Write-Host "Restart Server!"
           Start-Process start_server.bat
-          
         }
 }
