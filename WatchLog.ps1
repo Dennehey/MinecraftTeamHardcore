@@ -2,7 +2,6 @@ while($true)
 {
     Write-Host "Watching Server.Log"
     sleep -sec 10
-    $now = Get-Date
     $fileName = 'server.log'
     Get-Content $fileName -wait | where {$_ -match "\[Server thread\/INFO\]: [^\s]+ has killed us all!"} | 
       foreach { 
